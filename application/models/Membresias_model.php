@@ -6,7 +6,7 @@ class Membresias_model extends CI_Model
 		$this->load->database();
 	}
 	public function get_membresias(){
-		$this->db->select('id,nombre,precio,impresiones,equipo');
+		$this->db->select('id,nombre,precio,impresiones');
 		$this->db->from('tbl_tipo_membresia');
 		$this->db->where('id NOT LIKE 4');
         $this->db->where('id NOT LIKE 5');
@@ -14,7 +14,7 @@ class Membresias_model extends CI_Model
         return $query->result_array();
 	}
 	public function mostrar_membresia($id){
-		$this->db->select('id,nombre,precio,impresiones,equipo,foto,descripcion,lista');
+		$this->db->select('id,nombre,precio,impresiones,foto,descripcion,lista');
 		$this->db->from('tbl_tipo_membresia');
         $this->db->where('id',$id);
         $query = $this->db->get();  

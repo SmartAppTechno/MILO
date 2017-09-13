@@ -16,7 +16,6 @@
 						<th>Nombre</th>
 						<th>Precio</th>
 						<th>Máximo de Impresiones</th>
-						<th>Equipo</th>
 						<th>Acciones</th>
 					</tr>
 				</thead>
@@ -28,12 +27,6 @@
 							echo '<td>' . $membresia['nombre'] . '</td>';
 							echo '<td>$ ' . number_format((float)$membresia['precio'], 2, '.', ',') . '</td>';
 							echo '<td>' . $membresia['impresiones'] . '</td>';
-							if($membresia['equipo'] == 0){
-								echo '<td><i class="fa fa-window-close"></i></td>';
-							}
-							if($membresia['equipo'] == 1){
-								echo '<td><i class="fa fa-check-square"></i></td>';
-							}
 							echo '<td class="acciones"><form role="form" action="'.base_url('editar_membresia').'" method="post">
 			                        <input type="hidden" name="id" value="'.$membresia['id'].'">
 			                        <button type="submit" class="btn btn-w-m btn-primary"><i class="fa fa-pencil"></i></button>

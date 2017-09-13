@@ -298,6 +298,12 @@ $('#crop').on('click', function (event) {
             var alto = parseInt(el.height *eScaleY);
             var x = -(eWidth / 2) + left;
             var y = -(eHeight / 2) + top;
+            //var ancho = parseInt(el.width);
+            //var alto = parseInt(el.height);
+            //var x = -(object.width / 2) + left;
+            //var y = -(object.height / 2) + top;
+            //var x = -(object.width*object.scaleX / 2) + left;
+            //var y = -(object.height*object.scaleY / 2) + top;
             ctx.rect(x, y, ancho, alto);
         }
     }
