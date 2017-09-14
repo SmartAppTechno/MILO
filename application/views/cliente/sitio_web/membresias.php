@@ -20,10 +20,7 @@
                         <?php echo $membresia['lista']; ?>
                         <div class="precio">
                             <p>$<?php echo number_format($membresia['precio'], 2, '.', ',');; ?></p>
-                            <form role="form" action="<?php echo base_url(''); ?>" method="post">
-                                <input type="hidden" name="id" value="<?php echo $membresia['id']; ; ?>">
-                                <button type="submit" class="btn btn-primary">Comprar</button>
-                            </form>
+                            <?php echo $membresia['paypal']; ?>
                         </div>
                     </div>
                 </div>

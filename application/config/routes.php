@@ -61,6 +61,7 @@ $route['ver_orden/(:num)'] = 'ordenes_productos_controller/ver_orden/$1';
 
 //Membresías
 $route['pagos_membresia'] = 'pagos_membresia_controller';
+$route['actualizar_pago'] = 'pagos_membresia_controller/actualizar_pago';
 
 //Diseño Especial
 $route['disenio_especial'] = 'Disenio_especial_controller';
@@ -289,9 +290,6 @@ $route['quienes-somos'] = 'Principal_controller/nosotros';
 $route['membresias'] = 'Principal_controller/membresias';
 $route['solicitud_equipo'] = 'Principal_controller/solicitud_equipo';
 $route['enviar_solicitud'] = 'Principal_controller/enviar_solicitud';
-
-//Cronjob
-$route['impresion_extra'] = 'Cron_controller/impresion_extra';
 
 //Rutas predeterminadas
 $route['default_controller'] = 'Principal_controller';

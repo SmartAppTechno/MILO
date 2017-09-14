@@ -77,7 +77,7 @@ class Principal_model extends CI_Model
         return $query->result_array()[0]['membresia'];
 	}
 	public function get_membresias_usuario($membresia){
-		$this->db->select('id,nombre,precio,lista,foto');
+		$this->db->select('id,nombre,precio,lista,foto,paypal');
 		$this->db->from('tbl_tipo_membresia');
 		$this->db->where('id NOT LIKE',$membresia);
 		$this->db->where('id NOT LIKE 4');
@@ -94,7 +94,7 @@ class Principal_model extends CI_Model
         return $query->result_array();
 	}
 	public function get_membresias(){
-		$this->db->select('id,nombre,precio,lista,foto');
+		$this->db->select('id,nombre,precio,lista,foto,paypal');
 		$this->db->from('tbl_tipo_membresia');
 		$this->db->where('id NOT LIKE 4');
 		$this->db->where('id NOT LIKE 5');

@@ -13,4 +13,18 @@ class Pagos_membresia_model extends CI_Model
        	$query = $this->db->get();  
         return $query->result_array();
 	}
+	public function transaccion_unica($transaction){
+		$this->db->select('id');
+		$this->db->from('tbl_pagos_membresias');
+        $this->db->where('txn_id',$transaction);
+       	$query = $this->db->get();  
+        return $query->result_array();
+	}
+	public function get_membresia_id($nombre_membresia){
+		$this->db->select('id');
+		$this->db->from('tbl_pagos_membresias');
+        $this->db->where('nombre',$nombre_membresia);
+       	$query = $this->db->get();  
+        return $query->result_array();
+	}
 }
