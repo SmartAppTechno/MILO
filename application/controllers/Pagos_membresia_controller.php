@@ -28,22 +28,6 @@ class Pagos_membresia_controller extends CI_Controller {
 		    exit(0);
 		}
 		if ($verified) {
-		    /*
-		    Once you have a verified IPN you need to do a few more checks on the POST
-		    fields--typically against data you stored in your database during when the
-		    end user made a purchase (such as in the "success" page on a web payments
-		    standard button). The fields PayPal recommends checking are:
-		    
-		        1. Check the $_POST['payment_status'] is "Completed"
-			    2. Check that $_POST['txn_id'] has not been previously processed 
-			    3. Check that $_POST['receiver_email'] is your Primary PayPal email 
-			    4. Check that $_POST['payment_amount'] and $_POST['payment_currency'] 
-			       are correct
-		    
-		    Since implementations on this varies, I will leave these checks out of this
-		    example and just send an email using the getTextReport() method to get all
-		    of the details about the IPN.  
-		    */
 		    //Check the $_POST['payment_status'] is "Completed"
 		    if(strcmp($_POST['payment_status'], "Completed") == 0){	
 		    	//Check that $_POST['txn_id'] has not been previously processed 
@@ -53,19 +37,27 @@ class Pagos_membresia_controller extends CI_Controller {
 		    		//Check that $_POST['receiver_email'] is your Primary PayPal email
 		    		if(strcmp($_POST['receiver_email'], "mil.ventas@hotmail.com") ==0){
 		    			$nombre_membresia = $_POST['product_name'];
-		    			//tipo, cliente, inicio,fin,total,status,txn_id,paypal_id
+		    			$cliente_correo = $_POST['payer_email'];
+		    			date_default_timezone_set('America/Mexico_City');
+		    			$fecha_fin = $_POST['next_payment_date'];
+		    			//Datos a insertar
 		    			$tipo = $this->pagos_membresia_model->get_membresia_id($nombre_membresia);
-		    			$fin = $_POST['next_payment_date'];
+		    			$cliente = $this->pagos_membresia_model->get_cliente_id($cliente_correo);
+		    			$inicio = date("Y-m-d");
+		    			$fin = date("Y-m-d", strtotime($fecha_fin));
+		    			$total = $_POST['amount'];
+		    			$status = 1;
+		    			$txn_id = $transaction;
+		    			$this->pagos_membresia_model->crear_pago($tipo,$cliente,$inicio,$fin,$total,$status,$txn_id);
 		    		}
 		    	}
 		    }
 		} else {
-		    /*
-		    An Invalid IPN *may* be caused by a fraudulent transaction attempt. It's
-		    a good idea to have a developer or sys admin manually investigate any 
-		    invalid IPN.
-		    */
-		    mail('YOUR EMAIL ADDRESS', 'Invalid IPN', $listener->getTextReport());
+		    //Poner inactivo al cliente
+		    $cliente_correo = $_POST['payer_email'];
+		    $cliente = $this->pagos_membresia_model->get_cliente_id($cliente_correo);
+			$this->pagos_membresia_model->cliente_inactivo($cliente);
 		}
 	}
+	//paypal_id/parent_txn_id cancela
 }

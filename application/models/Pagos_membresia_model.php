@@ -25,6 +25,32 @@ class Pagos_membresia_model extends CI_Model
 		$this->db->from('tbl_pagos_membresias');
         $this->db->where('nombre',$nombre_membresia);
        	$query = $this->db->get();  
-        return $query->result_array();
+        return $query->result_array()[0]['id'];
+	}
+	public function get_cliente_id($cliente_correo){
+		$this->db->select('id');
+		$this->db->from('tbl_clientes');
+        $this->db->where('email',$cliente_correo);
+       	$query = $this->db->get();  
+        return $query->result_array()[0]['id'];
+	}
+	public function crear_pago($tipo,$cliente,$inicio,$fin,$total,$status,$txn_id){
+		$data = array(
+			'tipo' => $tipo,
+      		'cliente' => $cliente,
+      		'inicio' => $inicio,
+      		'fin' => $fin,
+      		'total' => $total,
+      		'status' => $status,
+      		'txn_id' => $txn_id
+      	);
+      	$this->db->insert('tbl_pagos_membresias',$data);
+	}
+	public function cliente_inactivo($cliente){
+		$data = array(
+			'membresia' => 4
+        );
+        $this->db->where('id',$cliente);
+        $this->db->update('tbl_clientes',$data);
 	}
 }
