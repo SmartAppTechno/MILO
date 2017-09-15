@@ -520,6 +520,25 @@ border:0;
   cursor: pointer;
 }
 /*Buscador*/
+.cancelar_membresia{
+      text-align: center;
+    margin-top: 4em;
+}
+.cancelar_membresia input[type="submit"]{
+      font-family: 'poppinsregular';
+    font-size: 12px;
+    outline: 0;
+    background: #000;
+    width: 180px;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 /*Agregar y Editar*/
 .formulario {
   margin: 20px auto;

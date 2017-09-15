@@ -10,6 +10,7 @@ class Pagos_membresia_controller extends CI_Controller {
 			$this->load->model('pagos_membresia_model');
 			$id_usuario = $this->session->userdata('usuario_id');
 			$data['membresias'] = $this->pagos_membresia_model->mostrar_membresias($id_usuario);
+			$data['subscription_id'] = $this->pagos_membresia_model->get_suscripcion_id($id_usuario);
 			$this->load->view('cliente/membresias/index',$data);
 		}else{
             redirect();
@@ -20,7 +21,7 @@ class Pagos_membresia_controller extends CI_Controller {
 		$this->load->model('pagos_membresia_model');
 		$this->load->library('ipnListener');
 		$listener = new IpnListener();
-		$listener->use_sandbox = true;
+		$listener->use_sandbox = false;
 		try {
 		    $listener->requirePostMethod();
 		    $verified = $listener->processIpn();
@@ -48,7 +49,8 @@ class Pagos_membresia_controller extends CI_Controller {
 		    			$total = $_POST['amount'];
 		    			$status = 1;
 		    			$txn_id = $transaction;
-		    			$this->pagos_membresia_model->crear_pago($tipo,$cliente,$inicio,$fin,$total,$status,$txn_id);
+		    			$sub_id = $_POST['subscr_id'];
+		    			$this->pagos_membresia_model->crear_pago($tipo,$cliente,$inicio,$fin,$total,$status,$txn_id,$sub_id);
 		    		}
 		    	}
 		    }
@@ -59,5 +61,46 @@ class Pagos_membresia_controller extends CI_Controller {
 			$this->pagos_membresia_model->cliente_inactivo($cliente);
 		}
 	}
-	//paypal_id/parent_txn_id cancela
+	public function cancelar_membresia(){
+		$this->load->library('session');
+        //Revisar si hay una sesión iniciada
+        if( $this->session->userdata('usuario_id') ){
+			$accion = $this->input->post('accion');
+			$sub_id = $this->input->post('sub_id');
+			//Cancelar membresía en paypal
+			$api_request = 'USER=' . urlencode( 'mil.ventas_api1.hotmail.com' )
+	        .  '&PWD=' . urlencode( 'YX3THP7JKAGPWLRP' )
+	        .  '&SIGNATURE=' . urlencode( 'AQU0e5vuZCvSg-XJploSa.sGUDlpAcg9PszoaJ4SoDh1fPhp9hQ8dRKZ' )
+	        .  '&VERSION=76.0'
+	        .  '&METHOD=ManageRecurringPaymentsProfileStatus'
+	        .  '&PROFILEID=' . urlencode( $sub_id )
+	        .  '&ACTION=' . urlencode( $accion )
+	        .  '&NOTE=' . urlencode( 'Profile cancelled at store' );
+	 
+		    $ch = curl_init();
+		    curl_setopt( $ch, CURLOPT_URL, 'https://api-3t.paypal.com/nvp' );
+		    curl_setopt( $ch, CURLOPT_VERBOSE, 1 );
+		 
+		    // Uncomment these to turn off server and peer verification
+		    // curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, FALSE );
+		    // curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, FALSE );
+		    curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+		    curl_setopt( $ch, CURLOPT_POST, 1 );
+		 
+		    // Set the API parameters for this transaction
+		    curl_setopt( $ch, CURLOPT_POSTFIELDS, $api_request );
+		 
+		    // Request response from PayPal
+		    $response = curl_exec( $ch );
+		 
+		    if( $response ){
+		     	//cambiar a membresía gratuita
+		     	$cliente_id = $this->session->userdata('usuario_id');
+		     	$this->pagos_membresia_model->cliente_gratuito($cliente_id);  
+		    }
+		    curl_close( $ch );
+	   	}else{
+            redirect();
+        }
+	}
 }

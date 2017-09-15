@@ -34,7 +34,7 @@ class Pagos_membresia_model extends CI_Model
        	$query = $this->db->get();  
         return $query->result_array()[0]['id'];
 	}
-	public function crear_pago($tipo,$cliente,$inicio,$fin,$total,$status,$txn_id){
+	public function crear_pago($tipo,$cliente,$inicio,$fin,$total,$status,$txn_id,$sub_id){
 		$data = array(
 			'tipo' => $tipo,
       		'cliente' => $cliente,
@@ -42,7 +42,8 @@ class Pagos_membresia_model extends CI_Model
       		'fin' => $fin,
       		'total' => $total,
       		'status' => $status,
-      		'txn_id' => $txn_id
+      		'txn_id' => $txn_id,
+      		'sub_id' => $sub_id
       	);
       	$this->db->insert('tbl_pagos_membresias',$data);
 	}
@@ -52,5 +53,20 @@ class Pagos_membresia_model extends CI_Model
         );
         $this->db->where('id',$cliente);
         $this->db->update('tbl_clientes',$data);
+	}
+	public function cliente_gratuito($cliente_id){
+		$data = array(
+			'membresia' => 5
+        );
+        $this->db->where('id',$cliente_id);
+        $this->db->update('tbl_clientes',$data);
+	}
+	public function get_suscripcion_id($id_usuario){
+		$this->db->select('sub_id');
+		$this->db->from('tbl_pagos_membresias');
+        $this->db->where('cliente',$id_usuario);
+        $this->db->order_by('id','desc');
+       	$query = $this->db->get();  
+        return $query->result_array()[0]['sub_id'];
 	}
 }
