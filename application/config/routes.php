@@ -63,6 +63,7 @@ $route['ver_orden/(:num)'] = 'ordenes_productos_controller/ver_orden/$1';
 $route['pagos_membresia'] = 'pagos_membresia_controller';
 $route['actualizar_pago'] = 'pagos_membresia_controller/actualizar_pago';
 $route['cancelar_membresia'] = 'pagos_membresia_controller/cancelar_membresia';
+$route['revisar_membresias'] = 'pagos_membresia_controller/revisar_membresias';
 
 //Diseño Especial
 $route['disenio_especial'] = 'Disenio_especial_controller';

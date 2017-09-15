@@ -69,4 +69,12 @@ class Pagos_membresia_model extends CI_Model
        	$query = $this->db->get();  
         return $query->result_array()[0]['sub_id'];
 	}
+	public function get_ultima_membresia($usuario_id){
+		$this->db->select('fin');
+		$this->db->from('tbl_pagos_membresias');
+        $this->db->where('cliente',$usuario_id);
+        $this->db->order_by('id','desc');
+       	$query = $this->db->get();  
+        return $query->result_array()[0]['fin'];
+	}
 }

@@ -16,6 +16,45 @@ class Pagos_membresia_controller extends CI_Controller {
             redirect();
         }
 	}
+	public function cancelar_membresia(){
+		$this->load->library('session');
+        //Revisar si hay una sesión iniciada
+        if( $this->session->userdata('usuario_id') ){
+			$accion = $this->input->post('accion');
+			$sub_id = $this->input->post('sub_id');
+			//Cancelar membresía en paypal
+			$api_request = 'USER=' . urlencode( 'mil.ventas_api1.hotmail.com' )
+	        .  '&PWD=' . urlencode( 'YX3THP7JKAGPWLRP' )
+	        .  '&SIGNATURE=' . urlencode( 'AQU0e5vuZCvSg-XJploSa.sGUDlpAcg9PszoaJ4SoDh1fPhp9hQ8dRKZ' )
+	        .  '&VERSION=76.0'
+	        .  '&METHOD=ManageRecurringPaymentsProfileStatus'
+	        .  '&PROFILEID=' . urlencode( $sub_id )
+	        .  '&ACTION=' . urlencode( $accion )
+	        .  '&NOTE=' . urlencode( 'Membresía cancelada' );
+	 
+		    $ch = curl_init();
+		    curl_setopt( $ch, CURLOPT_URL, 'https://api-3t.paypal.com/nvp' );
+		    curl_setopt( $ch, CURLOPT_VERBOSE, 1 );
+		 
+		    // Uncomment these to turn off server and peer verification
+		    // curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, FALSE );
+		    // curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, FALSE );
+		    curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+		    curl_setopt( $ch, CURLOPT_POST, 1 );
+		    curl_setopt( $ch, CURLOPT_POSTFIELDS, $api_request );
+		    $response = curl_exec( $ch );
+		 
+		    if( $response ){
+		     	//cambiar a membresía gratuita
+		     	$cliente_id = $this->session->userdata('usuario_id');
+		     	$this->load->model('pagos_membresia_model');
+		     	$this->pagos_membresia_model->cliente_gratuito($cliente_id);  
+		    }
+		    curl_close( $ch );
+	   	}else{
+            redirect();
+        }
+	}
 	public function actualizar_pago()
 	{
 		$this->load->model('pagos_membresia_model');
@@ -61,46 +100,18 @@ class Pagos_membresia_controller extends CI_Controller {
 			$this->pagos_membresia_model->cliente_inactivo($cliente);
 		}
 	}
-	public function cancelar_membresia(){
-		$this->load->library('session');
-        //Revisar si hay una sesión iniciada
-        if( $this->session->userdata('usuario_id') ){
-			$accion = $this->input->post('accion');
-			$sub_id = $this->input->post('sub_id');
-			//Cancelar membresía en paypal
-			$api_request = 'USER=' . urlencode( 'mil.ventas_api1.hotmail.com' )
-	        .  '&PWD=' . urlencode( 'YX3THP7JKAGPWLRP' )
-	        .  '&SIGNATURE=' . urlencode( 'AQU0e5vuZCvSg-XJploSa.sGUDlpAcg9PszoaJ4SoDh1fPhp9hQ8dRKZ' )
-	        .  '&VERSION=76.0'
-	        .  '&METHOD=ManageRecurringPaymentsProfileStatus'
-	        .  '&PROFILEID=' . urlencode( $sub_id )
-	        .  '&ACTION=' . urlencode( $accion )
-	        .  '&NOTE=' . urlencode( 'Profile cancelled at store' );
-	 
-		    $ch = curl_init();
-		    curl_setopt( $ch, CURLOPT_URL, 'https://api-3t.paypal.com/nvp' );
-		    curl_setopt( $ch, CURLOPT_VERBOSE, 1 );
-		 
-		    // Uncomment these to turn off server and peer verification
-		    // curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, FALSE );
-		    // curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, FALSE );
-		    curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
-		    curl_setopt( $ch, CURLOPT_POST, 1 );
-		 
-		    // Set the API parameters for this transaction
-		    curl_setopt( $ch, CURLOPT_POSTFIELDS, $api_request );
-		 
-		    // Request response from PayPal
-		    $response = curl_exec( $ch );
-		 
-		    if( $response ){
-		     	//cambiar a membresía gratuita
-		     	$cliente_id = $this->session->userdata('usuario_id');
-		     	$this->pagos_membresia_model->cliente_gratuito($cliente_id);  
-		    }
-		    curl_close( $ch );
-	   	}else{
-            redirect();
-        }
+	public function revisar_membresias(){
+		$this->load->model('pagos_membresia_model');
+		$usuarios_db = $this->pagos_membresia_model->get_usuarios_id();
+		foreach ($usuarios_db as $key=>$usuario) {
+			$usuario_id = $usuario['id'];
+			$caducidad = $this->pagos_membresia_model->get_ultima_membresia($usuario_id);
+			date_default_timezone_set('America/Mexico_City');
+			$hoy = date("Y-m-d");
+			if($caducidad < $hoy){
+				$cliente_id = $this->session->userdata('usuario_id');
+				$this->pagos_membresia_model->cliente_gratuito($cliente_id);
+			}
+		}
 	}
 }

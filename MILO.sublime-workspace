@@ -1,0 +1,1200 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"usu",
+				"usuario_id"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"usua",
+				"usuarios_id"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"clie",
+				"cliente_correo"
+			],
+			[
+				"scal",
+				"scaleY"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"es",
+				"eScaleX"
+			],
+			[
+				"esc",
+				"eScaleY"
+			],
+			[
+				"scale",
+				"scaleY"
+			],
+			[
+				"sca",
+				"scaleX"
+			],
+			[
+				"escale",
+				"eScaleY"
+			],
+			[
+				"esca",
+				"eScaleX"
+			],
+			[
+				"sc",
+				"eScaleX"
+			],
+			[
+				"estad",
+				"estado_id"
+			],
+			[
+				"TOTA",
+				"total"
+			],
+			[
+				"CLI",
+				"cliente_id"
+			],
+			[
+				"cli",
+				"cliente"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fe",
+				"fecha_fin"
+			],
+			[
+				"fech",
+				"fecha_inicio"
+			],
+			[
+				"fecha",
+				"fecha_inicio"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"inrgesos",
+				"ingresos_model"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"scre",
+				"screenImage"
+			],
+			[
+				"image",
+				"imageHeight"
+			],
+			[
+				"formula",
+				"formulario_imprimir"
+			],
+			[
+				"contened",
+				"contenedor_previa"
+			],
+			[
+				"car",
+				"cat_producto"
+			],
+			[
+				"cre",
+				"crear_disenio_model"
+			],
+			[
+				"crear",
+				"crear_disenio_model"
+			],
+			[
+				"mem",
+				"membresias"
+			],
+			[
+				"tit",
+				"titulo_cliente"
+			],
+			[
+				"radio",
+				"radio_grupo"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"tabla",
+				"tabla_vacia"
+			],
+			[
+				"contene",
+				"contenedor_presencial"
+			],
+			[
+				"conte",
+				"contenedor_presencial"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"panel",
+				"panel-group"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"disenio",
+				"disenio_especial"
+			],
+			[
+				"resula",
+				"resultado"
+			],
+			[
+				"tti",
+				"titulo_cliente"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"columna",
+				"columna-flex-icono"
+			],
+			[
+				"botones",
+				"botones-personalizar"
+			],
+			[
+				"cont",
+				"contenedor_cancelar"
+			],
+			[
+				"con",
+				"contenedor_cancelar"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pane",
+				"panel-heading"
+			],
+			[
+				"boton",
+				"boton_compras"
+			],
+			[
+				"modal",
+				"modal-body"
+			],
+			[
+				"conten",
+				"contenedor_membresia"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"colua",
+				"columna-texto"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"ti",
+				"titulo-seccion"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"mi",
+				"mi_cuenta"
+			],
+			[
+				"http",
+				"https"
+			],
+			[
+				"acnho",
+				"ancho"
+			],
+			[
+				"orgi",
+				"originY"
+			],
+			[
+				"e",
+				"eTop"
+			],
+			[
+				"new",
+				"new_width"
+			],
+			[
+				"get",
+				"getActiveObject"
+			],
+			[
+				"ne",
+				"new_height"
+			],
+			[
+				"se",
+				"setHeight"
+			],
+			[
+				"set",
+				"setWidth"
+			],
+			[
+				"modi",
+				"modifiedObject"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"foto",
+				"foto_previa"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"venta",
+				"venta_comentarios"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"data",
+				"dataURItoBlob"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"permi",
+				"permisos"
+			],
+			[
+				"perm",
+				"permiso"
+			],
+			[
+				"permisos",
+				"permisos_db"
+			],
+			[
+				"cu",
+				"cuatro"
+			],
+			[
+				"ca",
+				"catorce"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"memb",
+				"membresias"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"dise",
+				"disenio_final"
+			],
+			[
+				"im",
+				"imgUrl"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ventas",
+				"ventas_model"
+			],
+			[
+				"vendedor",
+				"vendedor_id"
+			],
+			[
+				"anch",
+				"ancho_con"
+			],
+			[
+				"min",
+				"min_zoom"
+			],
+			[
+				"ancho",
+				"ancho_con"
+			],
+			[
+				"num",
+				"num_fotos"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"lo",
+				"longitude"
+			],
+			[
+				"la",
+				"latitude"
+			],
+			[
+				"toa",
+				"total_venta"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"ven",
+				"ventas_model"
+			],
+			[
+				"V",
+				"Venta"
+			],
+			[
+				"col",
+				"col-md-offset-3"
+			],
+			[
+				"cold",
+				"col-md-6"
+			],
+			[
+				"long",
+				"longitud"
+			],
+			[
+				"lon",
+				"longitud"
+			],
+			[
+				"perso",
+				"personalizar"
+			],
+			[
+				"persona",
+				"Personalizar"
+			],
+			[
+				"to",
+				"total_orden"
+			],
+			[
+				"cos",
+				"costales_tonelada"
+			],
+			[
+				"costo",
+				"costo_tonelada"
+			],
+			[
+				"id",
+				"id_ventas"
+			],
+			[
+				"feh",
+				"fechas_ventas"
+			],
+			[
+				"c3",
+				"c3chart"
+			],
+			[
+				"caja",
+				"caja_balance"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"col-",
+				"col-md-4"
+			],
+			[
+				"ho",
+				"hora_salida"
+			],
+			[
+				"hor",
+				"hora_entrada"
+			],
+			[
+				"tot",
+				"total_venta"
+			],
+			[
+				"total",
+				"total-venta"
+			],
+			[
+				"str",
+				"strcmp"
+			],
+			[
+				"can",
+				"canvasHeight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO"
+	],
+	"file_history":
+	[
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/config/routes.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/models/Pagos_membresia_model.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/controllers/Pagos_membresia_controller.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/views/cliente/membresias/revisar.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/MILO.sublime-project",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/views/cliente/footer.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/templates/usuario/css/style.css",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/views/cliente/membresias/index.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/views/cliente/personalizar/personalizar_disenio.php",
+		"/C/Users/Isaac Mendez/Downloads/PHP-PayPal-IPN-master/PHP-PayPal-IPN-master/example/ipn.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/views/cliente/sitio_web/membresias.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/controllers/Principal_controller.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/models/Principal_model.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/views/cliente/sitio_web/footer.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/config/config.php",
+		"/C/Users/Isaac Mendez/Downloads/OMI Ags/Sistema/application/config/database.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/controllers/Paypal_controller.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/.htaccess",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/views/admin/membresias/index.php",
+		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/models/Membresias_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/personalizar/personalizar_disenio.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Reporte_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Notas_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/libraries/Pdf.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/libraries/tcpdf/tcpdf.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Ventas_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Notas_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/routes.php",
+		"/C/Users/Isaac Mendez/Downloads/Reporte_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/views/inventario_notas/index.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Inventario_notas_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Inventario_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Usuarios_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Usuarios_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/views/ingresos/index.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/views/ingresos_banco/index.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/views/egresos_banco/index.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/views/egresos/index.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Inventario_notas_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Egresos_banco_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Login_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Egresos_banco_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/recursos/css/app.css",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Ingresos_banco_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Ingresos_banco_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Ingresos_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Ingresos_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/models/Egresos_model.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Egresos_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/serverside_datatables_custom_filter update2/serverside_datatables_custom_filter/application/views/customers_view.php",
+		"/C/Users/Isaac Mendez/Downloads/serverside_datatables_custom_filter update2/serverside_datatables_custom_filter/application/models/Customers_model.php",
+		"/C/Users/Isaac Mendez/Downloads/serverside_datatables_custom_filter update2/serverside_datatables_custom_filter/application/controllers/Customers.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/recursos/js/tabla.js",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/views/ingresos/nuevo.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/config/config.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/config/routes.php",
+		"/C/Users/Isaac Mendez/Downloads/Abacen/application/controllers/Dashboard_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Crear_disenio_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/models/Crear_disenio_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/personalizar/disenios_creados.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/personalizar/imprimir.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/templates/usuario/css/imprimir.css",
+		"/C/Users/Isaac Mendez/Downloads/MILO/templates/usuario/css/style.css",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/personalizar/vista_previa.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/config/routes.php",
+		"/C/Users/Isaac Mendez/Downloads/libraries/Ventas_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/header.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/footer.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/categorias_productos/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/videos/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/models/Productos_categorias_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Productos_Categorias_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/categorias_productos/editar.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/categorias_productos/nueva.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/models/Membresias_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/membresias/solicitudes.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/membresias/solicitud.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Principal_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/models/Principal_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/membresias.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/solicitud_equipo.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/templates/usuario/css/bootstrap.css",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Cron_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/models/Carrito_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/config/config.php",
+		"/C/Users/Isaac Mendez/Downloads/mandados_2.sql",
+		"/C/Users/Isaac Mendez/Downloads/boss.sql",
+		"/C/Users/Isaac Mendez/Downloads/fp_college_kicker.sql",
+		"/C/Users/Isaac Mendez/Downloads/mandados.sql",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Membresias_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/header.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/login/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/templates/admin/css/style.css",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/solicitud_membresia.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/disenio_especial/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/carrito/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/membresias/editar.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Slider_Principal_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/models/Slider_principal_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Disenios_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/models/Disenios_model.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/membresias/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/membresias/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/admin/footer.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/personalizar/index.php",
+		"/D/Documents/IIA/5° Semestre/Teología Moral/Articulos/El reto de la transmisión de la verdad moral.docx",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/header.php",
+		"/C/Users/Isaac Mendez/Downloads/codeigniter-restserver-master/codeigniter-restserver-master/application/controllers/Rest_server.php",
+		"/C/Users/Isaac Mendez/Downloads/codeigniter-restserver-master/codeigniter-restserver-master/application/controllers/api/Example.php",
+		"/C/Users/Isaac Mendez/Downloads/codeigniter-restserver-master/codeigniter-restserver-master/application/controllers/Welcome.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/config/rest.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/REST_Controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/libraries/REST_Controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Capacitacion_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/controllers/Perfil_controller.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/config/cron.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/footer.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/comprar_disenios/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/comprar_productos/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/ordenes/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/ordenes/ver_orden.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/perfil/index.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/capacitacion/presencial.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/quienes-somos.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/sitio_web/ver_noticia.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/capacitacion/preguntas_frecuentes.php",
+		"/C/Users/Isaac Mendez/Downloads/MILO/application/views/cliente/capacitacion/manuales.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Isaac Mendez\\Documents\\GitHub\\MILO\\application\\controllers",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\models",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\models",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views\\cliente",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\templates\\admin\\css",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Abacen\\application",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Abacen\\application",
+			"C:\\xampp\\htdocs\\abacen\\application",
+			"C:\\xampp\\htdocs\\abacen\\application\\models",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views\\cliente",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views\\admin",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views\\cliente",
+			"C:\\Users\\Isaac Mendez\\Downloads\\MILO\\application\\views\\admin",
+			"C:\\xampp\\htdocs\\abacen\\application\\views",
+			"C:\\xampp\\htdocs\\abacen\\application\\controllers",
+			"C:\\xampp\\htdocs\\abacen\\application\\models",
+			"C:\\xampp\\htdocs\\abacen\\application\\views",
+			"C:\\xampp\\htdocs\\abacen\\application\\models",
+			"C:\\xampp\\htdocs\\abacen\\application",
+			"C:\\xampp\\htdocs\\abacen\\recursos_sitio",
+			"C:\\xampp\\htdocs\\abacen\\application\\views",
+			"C:\\xampp\\htdocs\\abacen\\application\\controllers",
+			"C:\\xampp\\htdocs\\abacen\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views",
+			"C:\\xampp\\htdocs\\abacen\\application\\models",
+			"-*.cfg,-*.json,-*.css,<open folders>",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\controllers",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\models",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views\\user",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\controllers",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\models",
+			"-*.cfg,-*.json,-*.css,<open folders>",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\models",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\controllers",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\models",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views",
+			"-*.cfg,-*.json,-*.css,<open folders>",
+			"-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views\\user\\pages",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\models",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\views",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\controllers",
+			"C:\\Users\\Isaac Mendez\\Downloads\\Made in Love\\Sistema\\application\\models",
+			"-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"C:\\xampp\\htdocs\\abacen\\application\\controllers",
+			"-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"-*.cfg,-*.json,-*.js,<open folders>",
+			"-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"-*.cfg,-*.json,-*.js,<open folders>",
+			"-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,-*.js,-language_mx.php,-language_en.php,<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,-language_mx.php,-language_en.php,<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,<open folders>",
+			"<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views",
+			"-*.less,-*.cfg,-*.json,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\",
+			"-*.less,-*.cfg,-*.json,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\views\\reports",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\spanish",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.js,-*.php,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.js,-*.php,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,-*.css,-*.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language\\english",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,<open folders>",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,C:\\Users\\Isaac Mendez\\Downloads\\KIUBIX\\AdminitTemplate\\application\\language",
+			"-*.less,-*.cfg,-*.json,-all.css,-all.js,<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sub_id",
+			"accion",
+			"id",
+			"actualizar_pago",
+			"cancelar_membresia",
+			"milo",
+			"cantidad",
+			"tipo",
+			"producto",
+			"orden",
+			"strcmp",
+			"ctx.rec",
+			"<td>",
+			"  |  ",
+			"\"",
+			"  |  ",
+			"require_once",
+			"dirname(__FILE__).",
+			"ventas_model",
+			"\"",
+			"element.",
+			"\"",
+			"fecha",
+			"inventario_notas_model",
+			"notas",
+			"filtro_",
+			"ingreso",
+			"egresos",
+			"egresos_banco_model",
+			"white-space: no",
+			"white-space",
+			"ingresos",
+			"ingresos_banco_model",
+			"filtro_",
+			"ingresos_model",
+			"ingresos",
+			"ingresos_model",
+			"cantidad",
+			"\"",
+			"customers",
+			"FirstName",
+			"country",
+			"FirstName",
+			"country",
+			"data.",
+			"fecha_inicio",
+			"fecha",
+			"order_date",
+			"fecha_inicio",
+			"id",
+			"display: flex",
+			"abace",
+			"m-b-md",
+			".table > tbody > tr > td",
+			"45",
+			"milo",
+			"creacion",
+			"milo",
+			"insert",
+			"imprimir_creacion",
+			"id=\"imprimir_disenio\"",
+			"ocasion",
+			"producto",
+			"fecha",
+			"costo",
+			"creacion",
+			"cliente",
+			"imprimir_creacion",
+			"flex-start",
+			"45",
+			"milo",
+			"producto",
+			"nombre",
+			"js/demo",
+			"tbl_solicitud_membresia",
+			"t1.",
+			"milo",
+			"#ab1a69",
+			"/*!",
+			"membresia",
+			"milo",
+			"solicitud_membresia",
+			"titulo_descripcion",
+			"titulo-seccion",
+			"imprimir",
+			"costales",
+			"update",
+			"1",
+			"+ 1",
+			"+1",
+			"1",
+			"+",
+			"descripcion",
+			"foto",
+			"cliente",
+			"disenio",
+			"get_foto_disenio",
+			"cliente",
+			"t1.",
+			"get_clientes",
+			"[",
+			"\"",
+			"]",
+			"[",
+			"$creacion",
+			"creacion",
+			"solicitudes_membresia",
+			"equipo",
+			"membresia",
+			",",
+			"$",
+			"pagos_membresias",
+			".btn {",
+			"required=\"\"",
+			"temporada",
+			"codigo_postal",
+			"red_social",
+			"foto",
+			"email",
+			"nombre",
+			"giro",
+			"correo",
+			"membresia",
+			"        $membresia = $this->input->post('membresia');\n",
+			"membresia",
+			"required=\"\"",
+			"class=\"radio\"",
+			"class=\"radio\" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"\"",
+			"enviar_mensaje",
+			"font-family: 'poppinslight';",
+			"contenedor_accion",
+			"redirect('administrar_membresias');",
+			"mi-cuenta",
+			"rotate: 90",
+			"redirect('admin');",
+			"columna-titulo",
+			"contenedor-foto-columna",
+			"contenedor-columna",
+			"producto",
+			"disenio",
+			"#ab1a69",
+			"tbl_clientes",
+			"egreso",
+			"egresos",
+			"egreso",
+			"egresos",
+			"egreso",
+			"egresos",
+			"formulario",
+			"#008860",
+			"proveedor",
+			"redirect('proveedores');",
+			"proveedores/",
+			"proveedores_model",
+			"get_tipos",
+			"clientes_model",
+			"y",
+			"x",
+			"a",
+			"#008860",
+			"Slope",
+			"linear_regression",
+			"lomasdebanthi.com.mx",
+			"http://lomasdebanthi.com.mx",
+			"http://banthi.mx",
+			"interceptions",
+			"col-md-6",
+			"$graph->img->SetMargin(60,60,60,60);",
+			"$graph = new Graph(500,300);",
+			"col-md-6",
+			"stats/rushing",
+			"receiving",
+			"$graph->img->SetMargin(50,50,50,50);",
+			"$graph->img->SetMargin(30,30,30,30);",
+			"$graph = new Graph(250,250);",
+			"$graph = new Graph(300,300);",
+			"$graph = new Graph(450,450);",
+			"$graph = new Graph(400,400);",
+			"$graph = new Graph(350,350);",
+			"$graph = new Graph(300,300);",
+			"$graph = new Graph(250,250);",
+			"$graph = new Graph(200,200);",
+			"$graph = new Graph(100,100);",
+			"col-md-3",
+			"h3",
+			"#04BFB5",
+			"pro",
+			"",
+			"tbl_paises",
+			"templates/usuario/images",
+			".png'); ?>\"",
+			".jpg'); ?>\"",
+			"\"<?php echo base_url('templates/images/",
+			".png'); ?>\"",
+			".jpg'); ?>\"",
+			".jpg'); ?>",
+			"\"<?php echo base_url('templates/",
+			"hostingndomain.com",
+			"admin.hostingndomain",
+			"contact.php",
+			"domain.php",
+			"$28",
+			"$15",
+			"hosting.php",
+			"help@hostingndomain.com",
+			"buttons.php",
+			"benefits.php",
+			"",
+			"Packages<",
+			"items",
+			"0",
+			".3",
+			"->sold_by_employee_id",
+			"",
+			"1.0",
+			"400.0",
+			"200.0",
+			"600.0",
+			"200.0",
+			"eliminar",
+			"Eliminar",
+			"eliminar",
+			"Eliminar",
+			"eliminar",
+			"Eliminar",
+			"eliminar",
+			"Eliminar",
+			"sucursal",
+			"sucursales",
+			"Sucursal",
+			"reporte",
+			"Reporte",
+			"Reportes",
+			"costo",
+			"Artículos",
+			"artículos",
+			"alert",
+			"producto",
+			"artículo",
+			"Tarjetas de Regalo",
+			"Tarjeta de Regalo",
+			"pagos de la sucursal",
+			"Cliente requerido",
+			"Selección de cliente obligatoria",
+			"reporte",
+			"cuadrícula de artículos",
+			"reportes",
+			"respaldos",
+			"respaldo",
+			"Recibo",
+			"recibo",
+			"",
+			"get_date_format().' '.get_time_format()",
+			"PINKEYBOARD"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 106.0
+	},
+	"pinned_build_system": "",
+	"project": "MILO.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 728.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
