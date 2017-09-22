@@ -30,6 +30,7 @@ class Crear_disenio_controller extends CI_Controller {
 			$membresia = $this->crear_disenio_model->obtener_membresia($id_usuario);
 			$data['impresiones'] = $this->crear_disenio_model->obtener_impresiones($membresia);
 			$data['disenios_creados'] = $this->crear_disenio_model->mostrar_disenios_creados($id_usuario);
+			$data['saldo'] = $this->crear_disenio_model->get_impresiones($id_usuario);
 			$this->load->view('cliente/personalizar/disenios_creados',$data);
 		}else{
             redirect();
@@ -48,13 +49,15 @@ class Crear_disenio_controller extends CI_Controller {
 			if($impresiones > $limite){
 				date_default_timezone_set('America/Mexico_City');
 				$fecha = date("Y-m-d");
-				//cobrar $3 pesos
-				$this->crear_disenio_model->insertar_impresion_extra($id_usuario,$creacion_id,3,$fecha);
 				//Aumentar contador de impresiones
 				$this->crear_disenio_model->aumentar_impresiones($creacion_id,1);
+				//Disminuir saldo
+				$this->crear_disenio_model->disminuir_saldo($id_usuario,1);
 			}else{
 				//Aumentar contador de impresiones
 				$this->crear_disenio_model->aumentar_impresiones($creacion_id,1);
+				//Disminuir saldo
+				$this->crear_disenio_model->disminuir_saldo($id_usuario,1);
 			}
 			$creacion = $this->crear_disenio_model->get_creacion($creacion_id);
 			$data['foto_impresion'] = $creacion['foto'];

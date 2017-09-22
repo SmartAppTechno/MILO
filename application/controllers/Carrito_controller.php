@@ -75,16 +75,14 @@ class Carrito_controller extends CI_Controller {
 					$tipo = $elemento['tipo'];
 					//Registrar producto en la orden
 					$this->carrito_model->crear_orden_producto($orden,$producto,$tipo,$cantidad,$total);
-					//Diseños comprados
-					if (strcmp($tipo,'disenios') == 0){
-						$this->carrito_model->disenio_comprado($producto,$usuario,$fecha);
-					}
 					//Mensaje del correo
 					$producto_nombre = $this->carrito_model->get_producto_nombre($producto);
 					if (strcmp($tipo,'productos') == 0)
 						$tipo_nombre = 'Producto';
 					if (strcmp($tipo,'disenios') == 0)
 						$tipo_nombre = 'Diseño';
+					if (strcmp($tipo,'impresiones') == 0)
+						$tipo_nombre = 'Impresiones';
 					$mensaje .= '<tr style="text-align: center;height: 30px;">
 									<td style="border: 1px solid black;">'.$producto_nombre.'</td>
 									<td style="border: 1px solid black;">'.$tipo_nombre.'</td>

@@ -36,6 +36,25 @@ class Carrito_model extends CI_Model
         $this->db->where('id',$orden);
         $this->db->update('tbl_ordenes',$data);
 	}
+	public function get_productos_orden($orden){
+		$this->db->select('producto,tipo');
+        $this->db->from('tbl_ordenes_productos');
+        $this->db->where('orden',$orden);
+        $query = $this->db->get();  
+        return $query->result_array();
+	}
+	public function get_cantidad_impresiones($producto){
+		$this->db->select('impresiones');
+        $this->db->from('tbl_disenios');
+        $this->db->where('id',$producto);
+        $query = $this->db->get();  
+        return $query->result_array()[0]['impresiones'];
+	}
+	public function aumentar_impresiones($id_usuario,$cantidad){
+		$this->db->set('impresiones', 'impresiones+' . $cantidad, FALSE);
+        $this->db->where('id',$id_usuario);
+        $this->db->update('tbl_clientes');
+	}
 	public function crear_orden_producto($orden,$producto,$tipo,$cantidad,$total){
 		$data = array(
 			'orden' => $orden,

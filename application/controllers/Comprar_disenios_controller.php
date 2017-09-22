@@ -73,6 +73,7 @@ class Comprar_disenios_controller extends CI_Controller {
 			$data['membresia'] = $this->comprar_disenios_model->obtener_membresia($id_usuario)[0]['membresia'];
 			$data['disenios'] = $this->comprar_disenios_model->mostrar_disenios();
 			$data['categorias'] = $this->comprar_disenios_model->mostrar_disenios_categorias();
+			$data['disenios_comprados'] = $this->comprar_disenios_model->mostrar_disenios_comprados($id_usuario);
 			$data['mensaje'] = 'El diseño se ha agregado correctamente al carrito';
 			$this->load->view('cliente/comprar_disenios/index',$data);
 		}else{

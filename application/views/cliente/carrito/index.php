@@ -27,7 +27,7 @@
 								<td class="carro_cantidad">
 									<?php if(strcmp($elemento['tipo'], 'productos') == 0){ ?>
 										<input type="number" name="<?php echo $key; ?>" value="<?php echo $elemento['cantidad']; ?>" />
-									<?php } if(strcmp($elemento['tipo'], 'disenios') == 0){ ?>
+									<?php } if(strcmp($elemento['tipo'], 'disenios') == 0 || strcmp($elemento['tipo'], 'impresiones') == 0){ ?>
 										<input type="number" name="<?php echo $key; ?>" value="<?php echo $elemento['cantidad']; ?>" readonly/>
 									<?php } ?>
 								</td>

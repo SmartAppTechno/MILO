@@ -48,7 +48,7 @@
 					echo '<td>' . $disenio['producto'] . '</td>';
 					echo '<td>' . $disenio['disenio'] . '</td>';
 					echo '<td>' . $disenio['ocasion'] . '</td>';
-					if($disenio['impresiones'] < $impresiones){
+					if($disenio['impresiones'] < $impresiones || $saldo > 0){
 						echo '<td class="acciones">
 								<form role="form" action="'.base_url('imprimir_disenio').'" method="post">
 		                        <input type="hidden" name="creacion" value="'.$disenio['id'].'">

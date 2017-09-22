@@ -554,10 +554,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/Isaac Mendez/Documents/GitHub/MILO"
-	],
 	"file_history":
 	[
 		"/C/Users/Isaac Mendez/Documents/GitHub/MILO/application/config/routes.php",
@@ -691,7 +687,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{

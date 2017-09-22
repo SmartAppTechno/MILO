@@ -64,7 +64,9 @@
 					<div class="columna productos">
 						<img src="<?php echo base_url($disenio['url']); ?>" width="200" height="200" />
 						<h4><?php echo $disenio['nombre']; ?></h4>
-						<p class="uso">Diseñado para <?php echo $disenio['producto']; ?></p>
+						<?php if($disenio['id'] != 11 && $disenio['id'] != 12 && $disenio['id'] != 13){ ?>
+							<p class="uso">Diseñado para <?php echo $disenio['producto']; ?></p>
+						<?php } ?>
 						<h3>$ <?php echo number_format((float)$disenio['precio'], 2, '.', ','); ?></h3>
 						<?php if($disenio['membresia'] ==  $membresia){ ?>
 							<div class="formulario">
@@ -73,7 +75,12 @@
 									<input type="hidden" name="foto" value="<?php echo $disenio['url']; ?>">
 									<input type="hidden" name="nombre" value="<?php echo $disenio['nombre']; ?>">
 									<input type="hidden" name="precio" value="<?php echo $disenio['precio']; ?>">
-									<input type="hidden" name="tipo" value="disenios">
+									<?php if($disenio['id'] != 11 && $disenio['id'] != 12 && $disenio['id'] != 13){ ?>
+										<input type="hidden" name="tipo" value="disenios">
+									<?php } ?>
+									<?php if($disenio['id'] == 11 || $disenio['id'] ==12 || $disenio['id'] == 13){ ?>
+										<input type="hidden" name="tipo" value="impresiones">
+									<?php } ?>
 									<button type="submit" name="agregar_carro"><img src="<?php echo base_url('templates/usuario/images/compras.png'); ?>"/> <span>Agregar al carrito</span></button>
 							 	</form>
 							</div>

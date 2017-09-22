@@ -5,6 +5,13 @@ class Crear_disenio_model extends CI_Model
 	{
 		$this->load->database();
 	}
+	public function get_impresiones($id_usuario){
+		$this->db->select('impresiones');
+		$this->db->from('tbl_clientes');
+		$this->db->where('id',$id_usuario);
+       	$query = $this->db->get();  
+        return $query->result_array()[0]['impresiones'];
+	}
 	public function obtener_membresia($id_usuario){
 		$this->db->select('membresia');
 		$this->db->from('tbl_clientes');
@@ -106,19 +113,15 @@ class Crear_disenio_model extends CI_Model
        	$query = $this->db->get();  
         return $query->result_array()[0]['impresiones'];
 	}
-	public function insertar_impresion_extra($cliente,$creacion,$costo,$fecha){
-		$data = array(
-			'cliente' => $cliente,
-            'creacion' => $creacion,
-            'costo' => $costo,
-            'fecha' => $fecha
-        );
-        $this->db->insert('tbl_impresion_extra',$data);
-	}
 	public function aumentar_impresiones($creacion,$cantidad){
 		$this->db->set('impresiones', 'impresiones+' . $cantidad, FALSE);
         $this->db->where('id',$creacion);
         $this->db->update('tbl_crear_productos');
+	}
+	public function disminuir_saldo($id_usuario,$cantidad){
+		$this->db->set('impresiones', 'impresiones-' . $cantidad, FALSE);
+        $this->db->where('id',$id_usuario);
+        $this->db->update('tbl_clientes');
 	}
 	public function get_foto_disenio($disenio){
 		$this->db->select('foto_impresion');

@@ -18,6 +18,22 @@ class Paypal_controller extends CI_Controller {
         	$cliente = $paypalInfo['custom'];
         	$orden = $this->carrito_model->get_ultima_compra($cliente);
         	$this->carrito_model->pagar_orden($orden);
+        	$productos_orden = $this->carrito_model->get_productos_orden($orden);
+        	foreach ($productos_orden as $key => $elemento) {
+        		$tipo = $elemento['tipo'];
+        		$producto = $elemento['producto'];
+        		//Diseños comprados
+				if (strcmp($tipo,'disenios') == 0){
+					date_default_timezone_set('America/Mexico_City');
+					$fecha = date("Y-m-d");
+					$this->carrito_model->disenio_comprado($producto,$id_usuario,$fecha);
+				}
+				//Saldo impresiones
+				if (strcmp($tipo,'impresiones') == 0){
+					$cantidad = $this->carrito_model->get_cantidad_impresiones($producto);
+					$this->carrito_model->aumentar_impresiones($id_usuario,$cantidad);
+				}
+        	}
 	        $this->load->view('user/pages/ordenes_productos', $data);
 		}else{
             redirect();
