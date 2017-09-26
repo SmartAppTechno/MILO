@@ -3,13 +3,15 @@
     <h1>Historial de pago<br><img src="<?php echo base_url('templates/usuario/images/adorno_titulo.png'); ?>"/></h1>
 </div>
 
-<div class="cancelar_membresia">
-  <form role="form" action="<?php echo base_url('cancelar_membresia') ?>" method="post">
-      <input type="hidden" name="accion" value="Cancel"/>
-      <input type="hidden" name="sub_id" value="<?php echo $subscription_id; ?>" />
-      <input type="submit" value="Cancelar Membresía"/>
-  </form>
-</div>
+<?php if(isset($subscription_id)){ ?>
+  <div class="cancelar_membresia">
+    <form role="form" action="<?php echo base_url('cancelar_membresia') ?>" method="post">
+        <input type="hidden" name="accion" value="Cancel"/>
+        <input type="hidden" name="sub_id" value="<?php echo $subscription_id; ?>" />
+        <input type="submit" value="Cancelar Membresía"/>
+    </form>
+  </div>
+<?php } ?>
 
 <?php if( !empty($membresias)){ ?>
 <div class="contenedor-tabla">

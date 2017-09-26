@@ -10,7 +10,10 @@ class Pagos_membresia_controller extends CI_Controller {
 			$this->load->model('pagos_membresia_model');
 			$id_usuario = $this->session->userdata('usuario_id');
 			$data['membresias'] = $this->pagos_membresia_model->mostrar_membresias($id_usuario);
-			$data['subscription_id'] = $this->pagos_membresia_model->get_suscripcion_id($id_usuario);
+			$suscripcion = $this->pagos_membresia_model->get_suscripcion_id($id_usuario);
+			if(count($suscripcion)>0){
+				$data['subscription_id'] = $suscripcion[0]['sub_id'];
+			}
 			$this->load->view('cliente/membresias/index',$data);
 		}else{
             redirect();
