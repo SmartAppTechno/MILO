@@ -40,16 +40,6 @@
 						<label class="col-sm-2 control-label">Diseño</label>
 						<label class="col-sm-10 creacion-informacion"><?php echo $creacion['disenio']; ?></label>
 					</div>
-					<div class="hr-line-dashed"></div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">Cristal</label>
-						<label class="col-sm-10 creacion-informacion"><?php if($creacion['cristal'] == 0) echo 'No'; elseif ($creacion['cristal'] == 1) echo 'Sí'; ?></label>
-					</div>
-					<div class="hr-line-dashed"></div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label">Propia Impresora</label>
-						<label class="col-sm-10 creacion-informacion"><?php if($creacion['propia_impresora'] == 0) echo 'No'; elseif ($creacion['propia_impresora'] == 1) echo 'Sí'; ?></label>
-					</div>
 				</form>
 			</div>
 			<div class="col-md-6 centrar">

@@ -34,6 +34,20 @@ class Clientes_controller extends CI_Controller {
             redirect('admin');
         }
     }
+    public function activar_cliente(){
+        $this->load->library('session');
+        //Revisar si hay una sesión iniciada
+        if( $this->session->userdata('usuario_nombre') && $this->session->userdata('usuario_rol') ){
+            //Datos del formulario
+            $id = $this->input->post('id');
+            //Cargar el modelo
+            $this->load->model('clientes_model');
+            $this->clientes_model->activar_cliente($id);
+            redirect('clientes');
+        }else{
+            redirect('admin');
+        }
+    }
     public function ordenes_cliente(){
         $this->load->library('session');
         //Revisar si hay una sesión iniciada

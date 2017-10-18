@@ -30,12 +30,19 @@
 							echo '<td>' . $cliente['email'] . '</td>';
 							echo '<td>' . $cliente['membresia'] . '</td>';
 							echo '<td>' . $cliente['red_social'] . '</td>';
-							echo '<td class="acciones">
-									<form role="form" action="'.base_url('desactivar_cliente').'" method="post">
-			                        <input type="hidden" name="id" value="'.$cliente['id'].'">
-			                        <button type="submit" class="btn btn-w-m btn-primary">Desactivar</button>
-			                    	</form>
-			                    </td>';
+							echo '<td class="acciones">';
+							if($cliente['status'] == 4){
+								echo '<form role="form" action="'.base_url('activar_cliente').'" method="post">
+			                        	<input type="hidden" name="id" value="'.$cliente['id'].'">
+			                        	<button type="submit" class="btn btn-w-m btn-primary">Activar</button>
+			                    	</form>';
+							}else{
+								echo '<form role="form" action="'.base_url('desactivar_cliente').'" method="post">
+			                        	<input type="hidden" name="id" value="'.$cliente['id'].'">
+			                        	<button type="submit" class="btn btn-w-m btn-primary">Desactivar</button>
+			                    	</form>';
+							}  	
+		                    echo '</td>';
 							echo '<td class="acciones">
 			                    	<form role="form" action="'.base_url('ordenes_cliente').'" method="post">
 			                        <input type="hidden" name="id" value="'.$cliente['id'].'">

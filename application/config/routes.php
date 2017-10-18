@@ -131,6 +131,7 @@ $route['eliminar_usuario'] = 'Usuarios_controller/eliminar_usuario';
 //Clientes
 $route['clientes'] = 'Clientes_controller/clientes';
 $route['desactivar_cliente'] = 'Clientes_controller/desactivar_cliente';
+$route['activar_cliente'] = 'Clientes_controller/activar_cliente';
 $route['ordenes_cliente'] = 'Clientes_controller/ordenes_cliente';
 $route['detalles_orden_cliente'] = 'Clientes_controller/detalles_orden_cliente';
 $route['disenios_cliente'] = 'Clientes_controller/disenios_cliente';

@@ -6,7 +6,7 @@ class Clientes_model extends CI_Model
 		$this->load->database();
 	}
 	public function get_clientes(){
-		$this->db->select('t1.id,t1.nombre,t1.email,t1.red_social,t2.nombre as membresia');
+		$this->db->select('t1.id,t1.nombre,t1.email,t1.red_social,t2.nombre as membresia,t1.membresia as status');
 		$this->db->from('tbl_clientes as t1,tbl_tipo_membresia as t2');
 		$this->db->where('t1.membresia = t2.id');
        	$query = $this->db->get();  
@@ -22,6 +22,13 @@ class Clientes_model extends CI_Model
     public function desactivar_cliente($id){
         $data = array(
             'membresia' => 4
+        );
+        $this->db->where('id',$id);
+        $this->db->update('tbl_clientes',$data);
+    }
+    public function activar_cliente($id){
+        $data = array(
+            'membresia' => 5
         );
         $this->db->where('id',$id);
         $this->db->update('tbl_clientes',$data);
