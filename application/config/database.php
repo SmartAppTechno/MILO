@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'madeinlo',
-	'password' => 'Sm@rtApp2017',
-	'database' => 'madeinlo_milo_db',
+	'username' => 'madeinlo_sublime',
+	'password' => 'Py*&Ff9AbA=2WG[a&V',
+	'database' => 'madeinlo_impresora',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
