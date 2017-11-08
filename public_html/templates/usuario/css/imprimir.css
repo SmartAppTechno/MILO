@@ -1,0 +1,19 @@
+@page { margin: 0; size: landscape; }
+body { margin: 0; }
+*{
+	border:none !important;
+	margin:0 !important;
+	padding: 0 !important;
+}
+.telefono,.header-backend,.navigation,.titulo_cliente,.panel-heading,#cover,.contenedor_accion,.titulo_imprimir,
+.formulario_imprimir,.contenedor_imprimir,.footer,#PureChatWidget,.marca_agua{
+display: none;
+}
+.contenedor_previa{
+	max-width: 100%;
+}
+.contenedor_previa .foto_previa{
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+}
