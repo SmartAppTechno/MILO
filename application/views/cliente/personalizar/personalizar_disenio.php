@@ -265,15 +265,30 @@ document.getElementById('nueva_foto').onchange = function handleImage(e) {
             if (num_fotos > 2) {
                 alert("Lo sentimos, solo es posible agregar 3 fotos al diseño.");
             } else {
-                var image = new fabric.Image(imgObj);
-                image.set({
-                    left: 500,
-                    top: 500,
-                    hasControls: false
-                });
-                canvas.bringForward(image);
-                canvas.add(image);
-                num_fotos++;
+                if (confirm('¿Quieres recortar la foto?')) {
+                    // yes
+                    var image = new fabric.Image(imgObj);
+                    image.set({
+                        left: 500,
+                        top: 500,
+                        hasControls: false
+                    });
+                    canvas.bringForward(image);
+                    canvas.add(image);
+                    num_fotos++;
+                } else {
+                    // no
+                    var image = new fabric.Image(imgObj);
+                    image.set({
+                        left: 500,
+                        top: 500,
+                        hasControls: true
+                    });
+                    canvas.bringForward(image);
+                    canvas.add(image);
+                    num_fotos++;
+                }
+                
             }
         }   
     }
