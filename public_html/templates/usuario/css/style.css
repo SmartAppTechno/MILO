@@ -811,6 +811,9 @@ border-color: transparent transparent #000000 transparent;
 .carro-titulo{
   font-weight: 700;
 }
+.contenedor .productos:hover,.contenedor .productos .etiqueta:hover{
+  cursor: pointer;
+}
 .productos h4,.manuales h4{
   padding: 1em;
     font-family: 'poppinslight';
