@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'madeinlo_sublime',
-	'password' => 'Py*&Ff9AbA=2WG[a&V',
-	'database' => 'madeinlo_impresora',
+	'username' => 'respinos_sublime',
+	'password' => 'K{bdk_Scn_^Ab^D&eo',
+	'database' => 'respinos_impresora',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

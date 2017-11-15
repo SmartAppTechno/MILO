@@ -17,6 +17,6 @@
         RewriteRule ^(.*)$ index.php/$1 [L]
 
         #SSL
-        RewriteCond %{HTTPS} !=on [NC]
-        RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+        # RewriteCond %{HTTPS} !=on [NC]
+        # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
