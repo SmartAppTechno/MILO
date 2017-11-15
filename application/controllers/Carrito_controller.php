@@ -98,8 +98,8 @@ class Carrito_controller extends CI_Controller {
 				//Enviar correo
 				$this->load->library('email');
 			    $this->email->set_mailtype('html');
-			    $this->email->from('ventas@madeinlove.mx','Made In Love');
-			    $this->email->to('contacto@madeinlove.mx');
+			    $this->email->from('ventas@lovefit.me','Made In Love');
+			    $this->email->to('contacto@lovefit.me');
 			    $this->email->subject('Nuevo Pedido #'.$orden);
 			    $this->email->message($mensaje);
 			    $this->email->send();

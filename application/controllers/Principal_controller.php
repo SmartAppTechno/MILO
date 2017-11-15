@@ -88,8 +88,8 @@ class Principal_controller extends CI_Controller {
         $this->load->view('cliente/sitio_web/quienes-somos',$data);
     }
     public function google_login(){
-        $client_id = '411015157830-nds029tta4cp9nubcei0dcb9kuv7oepe.apps.googleusercontent.com';
-        $client_secret = 'WL3sultk8i8t6Nk_m_ei1QkY';
+        $client_id = '150385403600-qse315l8b8pldj2e8ndcr55hhd0t1tpd.apps.googleusercontent.com';
+        $client_secret = 'qVU1C9UodcH-BfazLZtBOL61';
         $redirect_uri = base_url('google_callback');;
         $client = new Google_Client();
         $client->setApplicationName("Made In Love");
@@ -103,8 +103,8 @@ class Principal_controller extends CI_Controller {
         header('Location: '.$authUrl);
     }
     public function google_callback(){
-        $client_id = '411015157830-nds029tta4cp9nubcei0dcb9kuv7oepe.apps.googleusercontent.com';
-        $client_secret = 'WL3sultk8i8t6Nk_m_ei1QkY';
+        $client_id = '150385403600-qse315l8b8pldj2e8ndcr55hhd0t1tpd.apps.googleusercontent.com';
+        $client_secret = 'qVU1C9UodcH-BfazLZtBOL61';
         $redirect_uri = base_url('google_callback');;
         $client = new Google_Client();
         $client->setApplicationName("Made In Love");
