@@ -28,7 +28,7 @@ class Capacitacion_presencial_controller extends CI_Controller {
             $this->load->model('capacitacion_presencial_model');
             if (isset($_FILES['foto']['name']) && !empty($_FILES['foto']['name'])){
                 //Subir foto
-                $config['upload_path'] = 'templates/capacitacion/';
+                $config['upload_path'] = 'templates/capresencial/';
                 $config['allowed_types'] = 'jpg|png|jpeg';
                 $this->load->library('upload', $config);
                 $this->upload->do_upload('foto');
