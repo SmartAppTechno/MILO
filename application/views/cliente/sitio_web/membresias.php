@@ -4,9 +4,9 @@
     <div class="foto" style="background: url(<?php echo base_url('templates/usuario/images/membresias.jpg'); ?>);">
         <h1>Membresías</h1>
     </div>
-    <!-- <form id="solicitud_equipo" role="form" action="<?php echo base_url('solicitud_equipo'); ?>" method="post">
+    <form id="solicitud_equipo" role="form" action="<?php echo base_url('solicitud_equipo'); ?>" method="post">
         <button type="submit" class="btn btn-primary">Encuentra tu equipo ideal</button>
-    </form> -->
+    </form>
     <div class="row noticias">
         <div class="col-md-10 col-md-offset-1">
             <div class="row">
