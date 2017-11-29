@@ -20,7 +20,7 @@
                         <?php echo $membresia['lista']; ?>
                         <div class="precio">
                             <p>$<?php echo number_format($membresia['precio'], 2, '.', ',');; ?></p>
-                            <?php echo $membresia['paypal']; ?>
+                            <?php //echo $membresia['paypal']; ?>
                         </div>
                     </div>
                 </div>

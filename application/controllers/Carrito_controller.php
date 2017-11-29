@@ -104,9 +104,9 @@ class Carrito_controller extends CI_Controller {
 			    $this->email->message($mensaje);
 			    $this->email->send();
 				//Mostrar las órdenes
-				//redirect('ordenes_productos');
+				redirect('ordenes_productos');
 				//Paypal
-				$this->load->library('paypal_lib');
+				/*$this->load->library('paypal_lib');
 		        $returnURL = base_url('compra_exitosa');
 		        $cancelURL = base_url('compra_cancelada'); 
 		        $this->paypal_lib->add_field('return', $returnURL);
@@ -114,7 +114,7 @@ class Carrito_controller extends CI_Controller {
 				$this->paypal_lib->add_field('item_name', 'Made In Love');
 		        $this->paypal_lib->add_field('custom', $usuario);
 		        $this->paypal_lib->add_field('amount',  $total_orden);        
-				$this->paypal_lib->paypal_auto_form();
+				$this->paypal_lib->paypal_auto_form();*/
 			}
 		}else{
             redirect();
